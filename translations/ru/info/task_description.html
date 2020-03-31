@@ -1,0 +1,36 @@
+<!-- Describe task in general -->
+
+<p>
+    Попробуйте выяснить какое количество нулей содержит данное число в конце.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Входные данные: </strong> Положительное целое число (int).
+</p>
+
+<p>
+    <strong>Выходные данные: </strong> Целое число (int). 
+</p>
+
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Пример:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">endZeros(0) == 1
+endZeros(1) == 0
+endZeros(10) == 1
+endZeros(101) == 0
+</pre>
+{% else %}
+<pre class="brush: python">end_zeros(0) == 1
+end_zeros(1) == 0
+end_zeros(10) == 1
+end_zeros(101) == 0
+</pre>
+{% endif %}
+</div>
